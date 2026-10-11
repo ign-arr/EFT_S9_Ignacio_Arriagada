@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="trabajador" directorySegmentName="seg_0" id="6D53A1A2-350F-935C-4C53-51E607565152">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_inscripcion" id="0E85C4D0-7075-2809-E43D-B6A988AA6423">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apellido_materno" id="0FFB6A93-509B-A172-97E0-D4DA2EC0C239">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado_civil" id="1DDBD452-4C7D-0A59-D204-67C8D10C5572">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_nacion" id="31F54A19-2683-FDF6-08D7-FC76C4677181">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="direccion" id="3B06543F-941F-8D46-BFEF-403063D22B0D">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sueldo_base" id="3BF83C3D-A222-EA0A-1036-0725FC3DEF02">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="id_club" id="5B7083DF-7E71-2F48-7115-A5526AA8F016">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha_nacimiento" id="605590F6-1A11-DA7B-5A4D-25D5C9D76054">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dv" id="65333961-46FC-2FB7-1691-A895E10BB83A">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="genero" id="AA71374A-0A38-6AA9-CC64-C72DDFBA0395">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="correo" id="B53DE478-113D-43F8-845C-C1FAAFBD0552">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombres" id="C3AD3E0C-89A2-6D49-CEAA-7DC1973F0178">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telefono_movil" id="C8D120B8-999A-8679-8D59-38795C401FD8">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_comuna" id="D5DC691D-3C56-96AE-04E6-8B437DDD6DEC">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rut" id="E1FB892B-5DAC-29EF-0714-0793FBA08047">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apellido_paterno" id="FA9AB73E-FB5A-E7E4-A431-B5A52254AB80">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_trabajador_club" id="C4A880E9-B1A3-E428-8AAC-0A808D4F91F2">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_trabajador_nacionalidad" id="DE5EDC51-8A30-212A-CCEA-D033F5DF8511">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_trabajador_comuna" id="F81385A8-6063-A189-4E1E-1F4F13153813">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_trabajador" id="62E2B3D6-EDEE-C568-6D95-03B2C7BF2198">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_trabajador_rut" id="02597ADC-3892-4A0C-CAC6-7FE695EFF8A4">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_trabajador_dv" id="2F07DD38-218F-96E0-EFA7-B11DC913CA86">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_trabajador_sueldo" id="2F34BA24-98DE-C421-7536-710E28ADB711">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_trabajador_genero" id="ADD78D6A-B3B7-720F-70C0-33666680327C">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="un_trabajador_correo" id="8580E257-8DF5-CDA0-2355-1878D3D979FB">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="un_trabajador_rut" id="A5F447E6-31C8-3D5C-9FDF-50ECBD0083D2">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3DB76C1-E2D8-66FF-F277-5236B978FCF2" name="permanencia_jugador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>109FD82A-3118-CDC6-A0D2-8C4A847A26C8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="90C59B49-B859-CB0D-FF42-7547972F7050">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>EF4C817F-23CB-5EEA-D31C-D33881E4BD33</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="284D3D4D-27AB-C1BC-CAAB-67DB8F7D88AB" referredColumn="5593EE22-24FD-44AB-10F3-4FB7B9854DDB"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="814C224D-F4E1-3ADD-5158-EE2ABFDAA77B">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>1B9FA1F7-94F6-C642-1F8C-BF2FC6A9FAB8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>03C4ACC7-5AC1-2E70-9CA6-0767C928C39E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_club" id="A8C1735A-D110-483D-D60E-8F614CEC0378">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>FDB4832E-128D-34B6-1545-FA1559432646</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B528622F-7687-0923-C6DA-CB2BB0248920</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F594FC71-8854-4D80-C7CB-160F3DC160B7" referredColumn="ECDD19A8-746B-EFD1-59DA-42AF6FE5C573"/>
+</associations>
+</Column>
+<Column name="fecha_fin" id="0EB69468-4340-0334-301C-432BDD7DD031">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>AAE4ACE3-DEFC-C7CC-DE62-B0F8E76EC0DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>03C4ACC7-5AC1-2E70-9CA6-0767C928C39E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E81871B-8AFB-6FC0-B70F-631EB3A3F105" name="pk_permanencia_jugador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>40D8746F-7AA7-82FE-BA48-00F3405E1286</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C59B49-B859-CB0D-FF42-7547972F7050"/>
+<colUsage columnID="814C224D-F4E1-3ADD-5158-EE2ABFDAA77B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B7F9AE1-AFE8-2BC9-EEB5-E8FCF8B7579C" name="un_permanencia_abierta">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>92F9B723-6902-86D1-EBE1-76BD42AB39E2</importedID>
+<indexExpression>CASE WHEN fecha_fin IS NULL THEN id_inscripcion END</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F8FF8C69-42C8-1BC9-8D71-D4CE294CE748" name="fk_permanencia_club">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C1735A-D110-483D-D60E-8F614CEC0378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6319C565-031D-28CF-E689-17034AEFA341" name="fk_permanencia_jugador">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C59B49-B859-CB0D-FF42-7547972F7050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_permanencia_fechas" directorySegmentName="seg_0" id="B08B9924-C23F-CF95-389D-7A8A322735F0">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>819C285B-5787-9108-787B-C13B450D04FD</importedID>
+<rule><![CDATA[fecha_fin IS NULL OR fecha_fin >= fecha_inicio]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="284D3D4D-27AB-C1BC-CAAB-67DB8F7D88AB" containerWithKeyObject="A3DB76C1-E2D8-66FF-F277-5236B978FCF2" localFKIndex="6319C565-031D-28CF-E689-17034AEFA341" name="fk_permanencia_jugador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>94D13BEF-50C7-2F92-E578-2AF9BA46A036</importedID>
+<referredTableLongName>jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E3E5B11-E2DE-EF22-0EA4-D0BDE0FF3017</referredTableID>
+<keyObject>2300F4DF-A042-FFC4-8B6E-88F645533659</keyObject>
+<referredKeyID>2300F4DF-A042-FFC4-8B6E-88F645533659</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

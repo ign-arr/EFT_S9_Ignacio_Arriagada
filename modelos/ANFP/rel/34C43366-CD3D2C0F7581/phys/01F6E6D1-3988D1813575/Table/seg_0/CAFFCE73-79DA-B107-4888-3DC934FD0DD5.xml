@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="region" directorySegmentName="seg_0" id="CAFFCE73-79DA-B107-4888-3DC934FD0DD5">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_region" id="782CD897-C096-5159-B374-0D45C9E18356">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="B6223535-049E-5C01-A751-E2C68C420D2A">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_region" id="48B24655-7163-D9E0-D01C-2FEB6B59FFC4">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

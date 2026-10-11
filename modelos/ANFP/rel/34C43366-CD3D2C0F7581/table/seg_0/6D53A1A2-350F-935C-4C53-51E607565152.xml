@@ -1,0 +1,320 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D53A1A2-350F-935C-4C53-51E607565152" name="trabajador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>1A65F391-2441-4C00-19AF-53357B7302A7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="0E85C4D0-7075-2809-E43D-B6A988AA6423">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>84D31FAD-8556-E5B8-88B9-177FDCFB7E5B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="E1FB892B-5DAC-29EF-0714-0793FBA08047">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>D5EA83A6-6D01-7652-4D87-39AED91DA29F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2DA20A1B-1FBB-2280-87ED-2B74CAAE346B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv" id="65333961-46FC-2FB7-1691-A895E10BB83A">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>A6207F65-FB31-1C97-5626-9297C3941E1C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>26ACB9CF-BF84-A6F5-F703-2E99FB468910</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="C3AD3E0C-89A2-6D49-CEAA-7DC1973F0178">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>94B5A6C5-3C3A-DC88-E7D9-515A45A63199</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0218D22-F4BF-E79C-86AA-D3707ABBB6EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno" id="FA9AB73E-FB5A-E7E4-A431-B5A52254AB80">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>4E967657-2BCA-8FBA-5710-6C0D78C83549</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>62B25BCD-8DF9-5926-93A0-F22B8FF6F046</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno" id="0FFB6A93-509B-A172-97E0-D4DA2EC0C239">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>8131FD78-8FBF-918E-D4E3-1A1A696064E1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>62B25BCD-8DF9-5926-93A0-F22B8FF6F046</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="3BF83C3D-A222-EA0A-1036-0725FC3DEF02">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>8F534421-93AB-6702-D536-5812E14A02F4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>440585DA-3695-1D51-677D-384B737F03CC</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="605590F6-1A11-DA7B-5A4D-25D5C9D76054">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>C273F51E-00E1-6A0F-F3AC-25DB3504B0F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>03C4ACC7-5AC1-2E70-9CA6-0767C928C39E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="AA71374A-0A38-6AA9-CC64-C72DDFBA0395">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>63EE1A29-272D-61C4-193C-B991C8A4C2D3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>26ACB9CF-BF84-A6F5-F703-2E99FB468910</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_civil" id="1DDBD452-4C7D-0A59-D204-67C8D10C5572">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>C2C5D8BC-A5DC-3A7F-F81A-AFE6962FA910</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5FF32CC-A5A7-1829-319B-1A0604BE1B45</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_movil" id="C8D120B8-999A-8679-8D59-38795C401FD8">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>55B91073-B566-C3E5-F922-CF0CF688BF4B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97751290-93B5-D95A-5170-9D9F56159F8B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="B53DE478-113D-43F8-845C-C1FAAFBD0552">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>DC5B1ED4-1FC7-2236-A827-4DD72992D8B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D938967-77A7-4A9A-7DC7-3C6E31CB2668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="3B06543F-941F-8D46-BFEF-403063D22B0D">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>745B2799-2B0C-E17E-D3EB-222F62F9F86E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BCE3B270-7A6B-1D20-02D2-4831B6143DB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="D5DC691D-3C56-96AE-04E6-8B437DDD6DEC">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>50E69511-D2BD-5CC3-1F01-05C2A6A5F08B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA7C124F-19A2-62AF-5612-E29827C856C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9026E4B3-BA5D-AD8F-C0DA-71B199B72F97" referredColumn="21809569-0DC3-5C33-5346-9A30FB8F0BF2"/>
+</associations>
+</Column>
+<Column name="id_nacion" id="31F54A19-2683-FDF6-08D7-FC76C4677181">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>4E2CC7F5-B02B-D423-389D-8ED1E5622115</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA7C124F-19A2-62AF-5612-E29827C856C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA97403-8ABB-A2E2-3F2E-69E82780513B" referredColumn="FD1A6FA7-7ADA-5A7A-DEAB-D794377F43F8"/>
+</associations>
+</Column>
+<Column name="id_club" id="5B7083DF-7E71-2F48-7115-A5526AA8F016">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>59EB94C7-A44C-61D0-02EC-84EF0375B833</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B528622F-7687-0923-C6DA-CB2BB0248920</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D4CB81-6861-382B-7674-0DBF133B307C" referredColumn="ECDD19A8-746B-EFD1-59DA-42AF6FE5C573"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62E2B3D6-EDEE-C568-6D95-03B2C7BF2198" name="pk_trabajador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>331A65B9-CD79-D3D5-35AA-268F8C6A659D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E85C4D0-7075-2809-E43D-B6A988AA6423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5F447E6-31C8-3D5C-9FDF-50ECBD0083D2" name="un_trabajador_rut">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>FE5F109D-13D2-3CFC-0C5B-7D2A227AAF6E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1FB892B-5DAC-29EF-0714-0793FBA08047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8580E257-8DF5-CDA0-2355-1878D3D979FB" name="un_trabajador_correo">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>89621706-45DA-090D-BCDB-82C19C63723B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53DE478-113D-43F8-845C-C1FAAFBD0552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4A880E9-B1A3-E428-8AAC-0A808D4F91F2" name="fk_trabajador_club">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B7083DF-7E71-2F48-7115-A5526AA8F016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F81385A8-6063-A189-4E1E-1F4F13153813" name="fk_trabajador_comuna">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DC691D-3C56-96AE-04E6-8B437DDD6DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE5EDC51-8A30-212A-CCEA-D033F5DF8511" name="fk_trabajador_nacionalidad">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F54A19-2683-FDF6-08D7-FC76C4677181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_trabajador_rut" directorySegmentName="seg_0" id="02597ADC-3892-4A0C-CAC6-7FE695EFF8A4">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>765BE144-9B91-A3FE-6174-755666EFCC3C</importedID>
+<rule><![CDATA[rut > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_trabajador_dv" directorySegmentName="seg_0" id="2F07DD38-218F-96E0-EFA7-B11DC913CA86">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>ABAFD97A-3A86-CEC2-5EA0-BD3C4145E8D6</importedID>
+<rule><![CDATA[dv IN ('0','1','2','3','4','5','6','7','8','9','K')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_trabajador_sueldo" directorySegmentName="seg_0" id="2F34BA24-98DE-C421-7536-710E28ADB711">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>217B4656-B345-B5C2-DF28-B4895ED59397</importedID>
+<rule><![CDATA[sueldo_base >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_trabajador_genero" directorySegmentName="seg_0" id="ADD78D6A-B3B7-720F-70C0-33666680327C">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>04BE98EC-13DF-91DB-6467-9CA70BBEA98D</importedID>
+<rule><![CDATA[genero IN ('M','F','O')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

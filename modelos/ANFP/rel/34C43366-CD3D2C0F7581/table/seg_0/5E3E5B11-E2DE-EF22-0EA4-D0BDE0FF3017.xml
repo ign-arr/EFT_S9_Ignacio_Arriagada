@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E3E5B11-E2DE-EF22-0EA4-D0BDE0FF3017" name="jugador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>3D1E0CF8-B98D-2079-D3D0-1619047A9998</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="5593EE22-24FD-44AB-10F3-4FB7B9854DDB">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>CE74E752-4167-C8EA-5CE7-7D235DF25688</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F3B3AFC-DD59-9044-4256-9B5B50AEFE9D" referredColumn="0E85C4D0-7075-2809-E43D-B6A988AA6423"/>
+</associations>
+</Column>
+<Column name="puesto" id="BF0AB4D5-B0CF-9467-1252-AA39DD7675F7">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>81C9C01C-665D-6C49-B42B-51068D6983E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AEA546E9-F8AD-8EE1-DFD3-EE76D019AC25</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_premios" id="93894D1B-0415-00AD-62C8-D64A446F306C">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>C715CD4D-B8D4-AEBF-470B-19EA67E3ECCC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7CDBED9-A2D9-16A1-4F0F-11976CBA25A3</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_asociacion" id="6AAADB78-ECD0-E5A2-B6B8-866B1EB8649C">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>BF951CD7-6D67-13E7-5200-AAEBFBB30E1A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA7C124F-19A2-62AF-5612-E29827C856C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AFEBDC4-C67B-093D-B325-52A4F965CC9B" referredColumn="CAF58370-EBBD-E230-9DFE-B6B74521BFA3"/>
+</associations>
+</Column>
+<Column name="id_escuela" id="5D5D30D0-4DE2-5339-AA7C-321166C340AE">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>499A863C-F0B9-6D42-C53F-A126A612E607</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B528622F-7687-0923-C6DA-CB2BB0248920</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="482F3D17-2407-C5B2-D01D-CD6918E04E08" referredColumn="6D2E472B-D3D9-70E6-5373-10DBC3C2FC6A"/>
+</associations>
+</Column>
+<Column name="anio_fin_amateur" id="F47388C2-7021-95C9-E42A-F38FA5D17DD7">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>A911F4A8-911C-3659-C21F-8D08BFFDA00C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7EE718C1-E355-AF5A-95C4-C611B6CA522C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2300F4DF-A042-FFC4-8B6E-88F645533659" name="pk_jugador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>9DB0ADB1-F06E-4662-AAB3-806901EAB8DF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5593EE22-24FD-44AB-10F3-4FB7B9854DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C259375E-D68F-EC90-7E79-F5D3E8E6E95B" name="fk_jugador_asociacion">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AAADB78-ECD0-E5A2-B6B8-866B1EB8649C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="029012B8-A4FC-F258-6A1C-C383B0BA6131" name="fk_jugador_escuela">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5D30D0-4DE2-5339-AA7C-321166C340AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBCBC2F0-4BC0-B2D7-4FCF-8CF280CA3262" name="fk_jugador_trabajador">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5593EE22-24FD-44AB-10F3-4FB7B9854DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_jugador_premios" directorySegmentName="seg_0" id="5BFC0AF3-53C9-5DD4-A8D2-8288210B8AA5">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>4F48E7D9-8D88-8061-C9D3-6577E3637EE9</importedID>
+<rule><![CDATA[total_premios >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_jugador_anio" directorySegmentName="seg_0" id="4178350E-D99D-05CD-DDCD-3CBF256A5DD5">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>EDC786FD-B876-9B68-0BE3-CD523E096EF0</importedID>
+<rule><![CDATA[anio_fin_amateur BETWEEN 1900 AND 9999]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_jugador_formacion" directorySegmentName="seg_0" id="02852151-E6A9-F173-2DBC-F8C813500B5A">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>E44CF473-175D-AB49-3C4D-C0305A739FBE</importedID>
+<rule><![CDATA[(id_escuela IS NULL AND anio_fin_amateur IS NULL) OR (id_escuela IS NOT NULL AND anio_fin_amateur IS NOT NULL)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

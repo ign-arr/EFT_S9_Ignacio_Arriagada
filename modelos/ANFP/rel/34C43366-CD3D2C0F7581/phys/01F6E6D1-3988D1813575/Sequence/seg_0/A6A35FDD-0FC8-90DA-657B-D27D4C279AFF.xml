@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="seq_club_futbol" directorySegmentName="seg_0" id="A6A35FDD-0FC8-90DA-657B-D27D4C279AFF">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:48:27 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<incrementBy>4</incrementBy>
+<noCache>YES</noCache>
+<startWith>703</startWith>
+</SequenceOraclev10g>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D300617-DEBA-972A-D514-4E7B62B28DD5" name="club_futbol">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>8634F3BC-F2B9-13E7-3600-7C2E3EBAD793</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_club" id="ECDD19A8-746B-EFD1-59DA-42AF6FE5C573">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>CFC16622-F52C-D6DB-E03B-EFD07718671B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B528622F-7687-0923-C6DA-CB2BB0248920</domain>
+<defaultValue>seq_club_futbol.NEXTVAL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_club_futbol</autoIncrementSequenceName>
+</Column>
+<Column name="nombre_club" id="0E876FFB-9858-8D91-DC73-4FBCDCF9CB26">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>12DCC0E3-1822-B4BD-8970-B97D4B6BC024</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D938967-77A7-4A9A-7DC7-3C6E31CB2668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patrimonio" id="2B9BA777-DD31-6AEA-4B0F-9E9C55D13C38">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>AD218611-9865-C3F3-6A34-7C18B7690EA6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7CDBED9-A2D9-16A1-4F0F-11976CBA25A3</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_calle" id="939A00A6-8C40-C39E-4B8A-F5E4166AA7FB">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>DD6C7E55-1887-874E-5E00-2EC8ED3E2653</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BCE3B270-7A6B-1D20-02D2-4831B6143DB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_club" id="3F648C4D-8B0F-CCB2-2805-BAB4426BBC44">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>E7A73FBC-B263-16DF-1E86-5342F1C745CE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FD26B9CD-0456-D296-7BE3-77A2BD8FC3E6</domain>
+<defaultValue>&apos;Profesional&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CE7DB15-DC7D-01C2-5FA8-87CF92C9A6C1" name="pk_club_futbol">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>A3BCBA91-9055-722D-E5E0-76ED1024AC66</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECDD19A8-746B-EFD1-59DA-42AF6FE5C573"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF706E75-6FD6-9D29-48F5-CB0B339481D8" name="un_club_futbol_nombre">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>D5F424FA-8C6D-B2FB-55BA-798E04C91207</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E876FFB-9858-8D91-DC73-4FBCDCF9CB26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_club_futbol_patrimonio" directorySegmentName="seg_0" id="CA29D306-4286-7504-3159-4E6D45474D5E">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>06675B8A-764C-8D37-EDF2-D81344CF7752</importedID>
+<rule><![CDATA[patrimonio >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_club_futbol_tipo" directorySegmentName="seg_0" id="9F78221C-75C7-451F-B5FD-C5D1283D83F4">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>A16A06B6-E4DB-FFA3-8D00-16F3DB17A1FA</importedID>
+<rule><![CDATA[tipo_club IN ('Profesional', 'Amateur')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

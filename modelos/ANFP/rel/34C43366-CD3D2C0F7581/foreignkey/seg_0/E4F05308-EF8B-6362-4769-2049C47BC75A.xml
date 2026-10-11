@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4F05308-EF8B-6362-4769-2049C47BC75A" containerWithKeyObject="75C1020B-C0AF-125F-47C3-A82914A1B63F" localFKIndex="2D2F36EC-9919-0C74-B322-DACDDAAB2803" name="fk_planta_trabajador">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>B4AE655E-B809-6602-C1E1-EA4F12AFE395</importedID>
+<referredTableLongName>trabajador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D53A1A2-350F-935C-4C53-51E607565152</referredTableID>
+<keyObject>62E2B3D6-EDEE-C568-6D95-03B2C7BF2198</keyObject>
+<referredKeyID>62E2B3D6-EDEE-C568-6D95-03B2C7BF2198</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6246616A-F515-7B32-21EF-31C3DAE64578" name="jugador_idioma">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>82D15A90-B137-46E3-AB4D-2688A315FE6B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="E486A956-B26D-67A9-4FC5-A8F24177B9F7">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>C129EDBA-0F3F-933F-DA2F-C591770683A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9936E965-CB53-ED3A-8476-155DD7A90BF7" referredColumn="5593EE22-24FD-44AB-10F3-4FB7B9854DDB"/>
+</associations>
+</Column>
+<Column name="id_idioma" id="89F943E3-EABA-0F11-0BB9-672ECE08866F">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>FAD7A278-62C5-7692-3578-14592DB00C6B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DC19FC71-FC5C-B54C-A91E-DA2B97D22043</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16E96F64-80D2-33BB-1DDE-B329A67441BC" referredColumn="A96B2880-4362-A633-DB6E-CBDCC10E1165"/>
+</associations>
+</Column>
+<Column name="nivel_dominio" id="8B24D0A3-FC1A-58CF-94B6-A109DAF73818">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>D740458C-4887-A0AD-7EE7-FD4100F6B64E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F29BF24-5857-5F66-05A0-42C14C247CCD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61690694-CA91-C7A9-0424-BFF6BDA00254" name="pk_jugador_idioma">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>B5C8BB86-40E2-3064-E49A-700ABA468DD9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E486A956-B26D-67A9-4FC5-A8F24177B9F7"/>
+<colUsage columnID="89F943E3-EABA-0F11-0BB9-672ECE08866F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B1CC84-E7A3-AB2D-9611-8DC763C37D0B" name="fk_jugador_idioma_idioma">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F943E3-EABA-0F11-0BB9-672ECE08866F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A486FD17-4704-AC57-DC2F-A230AA901468" name="fk_jugador_idioma_jugador">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E486A956-B26D-67A9-4FC5-A8F24177B9F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_jugador_idioma_nivel" directorySegmentName="seg_0" id="709756E6-DF85-6DC2-332D-830287807A25">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>4B123674-AB66-D655-32C4-7325892EEA95</importedID>
+<rule><![CDATA[nivel_dominio IN ('Basico','Intermedio','Avanzado','Nativo')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="34C43366-79AD-D809-55CA-CD3D2C0F7581" mainViewID="146FE02F-525A-B6CA-D715-41A1EFA99720">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:45:46 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>01_ANFP_modelo.sql</fileName>
+<pathName>C:\Users\ddd\Desktop\ANFP</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

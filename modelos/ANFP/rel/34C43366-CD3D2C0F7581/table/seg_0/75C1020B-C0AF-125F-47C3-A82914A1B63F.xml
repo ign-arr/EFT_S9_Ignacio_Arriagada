@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75C1020B-C0AF-125F-47C3-A82914A1B63F" name="personal_planta">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>556810D2-5C73-C205-3EE5-60FE1AEB6EE9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="A82737E4-8CE4-AE37-F3BA-52D0B3521687">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>6A666932-120F-11EE-C88A-22586FBED7B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4F05308-EF8B-6362-4769-2049C47BC75A" referredColumn="0E85C4D0-7075-2809-E43D-B6A988AA6423"/>
+</associations>
+</Column>
+<Column name="horas_trabajadas" id="48A90F4B-C065-2BA0-194C-4DE0FBCAF1FB">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>3AC5B177-D604-8098-5C98-7392F14E28EA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B7224C07-56FC-0907-07E6-EA2A41387637</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_hora_extra" id="5CF02247-6D37-F737-8DC2-6DC9B837F11F">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>53A80974-6573-B9A8-86F6-BCE02D76B924</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03B1B5EF-032F-DCCF-67EF-CF0D17DB7C1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CED51CF-E1AF-66F7-266C-769230A61A54" name="pk_personal_planta">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>C6CAD1EA-5E30-95A6-8594-FD177FC8A7DD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82737E4-8CE4-AE37-F3BA-52D0B3521687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D2F36EC-9919-0C74-B322-DACDDAAB2803" name="fk_planta_trabajador">
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82737E4-8CE4-AE37-F3BA-52D0B3521687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_planta_horas" directorySegmentName="seg_0" id="AA25AF1F-E3F1-5FBA-84F4-C02DCD97B1D3">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>9C1449E1-5C5C-DF81-CA2F-9FCEA544E018</importedID>
+<rule><![CDATA[horas_trabajadas >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_planta_valor_extra" directorySegmentName="seg_0" id="62DCD742-90A3-A43C-FA69-A847D33B8C1E">
+<sourceDDLFile>01_ANFP_modelo.sql</sourceDDLFile>
+<createdBy>ddd</createdBy>
+<createdTime>2026-10-11 04:51:10 UTC</createdTime>
+<ownerDesignName>ANFP</ownerDesignName>
+<importedID>9F5DA226-D434-1B7E-697B-C2F41E210981</importedID>
+<rule><![CDATA[valor_hora_extra >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
